@@ -20,6 +20,7 @@ My interests include:
 - multimedia instruction and educational design
 - exercise physiology and performance testing
 - rehabilitation and applied movement science
+- family-centered care and health policy
 
 ## About This Site
 
