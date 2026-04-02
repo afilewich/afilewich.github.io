@@ -31,6 +31,10 @@ Raw verified unique views:
 
 These values represent the number of students who accessed each video module.
 
+![Verified Unique Views Across Pre-Laboratory Video Modules](/assets/img/thesis/video_viewership_chart.png)
+
+_Programmatically generated chart showing verified unique views across the four pre-laboratory video modules._
+
 ## Descriptive Category Means
 
 Survey responses were also summarized into broader descriptive categories.
@@ -44,6 +48,10 @@ Category means:
 - Learning: 3.60
 - Engagement: 3.87
 - Comparison: 3.80
+
+![Descriptive Mean Scores by Category](/assets/img/thesis/category_means_chart.png)
+
+_Programmatically generated chart showing descriptive mean scores across regrouped survey categories._
 
 ## Interpretation
 
