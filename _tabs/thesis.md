@@ -5,9 +5,7 @@ order: 2
 title: Thesis
 ---
 
-## Title
-
-**Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective**
+# **Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective**
 
 ## Overview
 
