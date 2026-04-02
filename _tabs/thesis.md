@@ -2,7 +2,7 @@
 layout: page
 icon: fas fa-flask
 order: 2
-title: Honours Thesis
+title: Thesis
 ---
 
 ## Title
