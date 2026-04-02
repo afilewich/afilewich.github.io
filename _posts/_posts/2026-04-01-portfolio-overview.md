@@ -8,7 +8,7 @@ pin: true
 
 ## Welcome
 
-Hi, I’m Andrew Filewich. This website is my academic portfolio and is centered on my honours thesis:
+Hi, I’m Andrew Filewich. This website is my academic portfolio and is centered on my honours thesis. In addition to my honours thesis, this portfolio also includes a co-authored publication on the impact of COVID-19 restrictions on family time in long-term care, reflecting my broader interest in applied health research and family-centered care.
 
 **Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective**
 
@@ -22,6 +22,7 @@ This site presents the project in a web-based format through four main sections:
 - **Methods** — how the study was designed and carried out
 - **Findings** — what the project found
 - **Implications** — what the results may mean for kinesiology education
+- **Additional Research** — a co-authored publication on family time, long-term care, and COVID-19 restrictions
 
 ## Why This Project Matters
 
