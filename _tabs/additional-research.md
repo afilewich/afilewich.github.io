@@ -5,8 +5,6 @@ order: 6
 title: Additional Research
 ---
 
-# Additional Research
-
 ## Co-Authored Publication
 
 **“You Admit a Resident, You Admit a Family”: The Impact of COVID-19 Restrictions on Family Time in Long-Term Care**
