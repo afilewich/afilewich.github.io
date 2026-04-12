@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-book-open
-order: 7
+order: 8
 title: Additional Research
 ---
 
