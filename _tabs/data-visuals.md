@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-chart-bar
-order: 6
+order: 7
 title: Data & Visuals
 ---
 
