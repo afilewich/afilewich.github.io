@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-flask
-order: 2
+order: 3
 title: Thesis
 ---
 
