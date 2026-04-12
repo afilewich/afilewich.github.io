@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-file-lines
-order: 8
+order: 2
 title: Resume
 ---
 
