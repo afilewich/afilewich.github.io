@@ -8,15 +8,16 @@ pin: true
 
 ## Welcome
 
-Hi, I’m Andrew Filewich. This website is my academic portfolio and is centered on my honours thesis. In addition to my honours thesis, this portfolio also includes a co-authored publication on the impact of COVID-19 restrictions on family time in long-term care, reflecting my broader interest in applied health research and family-centered care.
+Hi, I’m Andrew Filewich. This website is my professional and academic portfolio. Some highlights I have added include: my professional resume, my honours thesis, and a co-authored publication on the impact of COVID-19 restrictions on family time in long-term care, which reflects my broader interest in applied health research and family-centered care.
 
-**Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective**
+## Some of What You’ll Find on This Site
+
+**Professional resume: Outlining my professional experience as a Licensed Practical Nurse as well as completed and ongoing education**
+
+**Honours Thesis: Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective**
 
 This project explored whether short pre-laboratory instructional videos could help undergraduate kinesiology students feel more prepared, more confident, and more clear on laboratory procedures before entering lab sessions.
-
-## What You’ll Find on This Site
-
-This site presents the project in a web-based format through four main sections:
+This site presents outlines my honours project in a web-based format through four main sections:
 
 - **Thesis** — an overview of the project and its purpose
 - **Methods** — how the study was designed and carried out
