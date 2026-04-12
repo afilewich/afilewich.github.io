@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-clipboard-list
-order: 3
+order: 4
 title: Methods
 ---
 
