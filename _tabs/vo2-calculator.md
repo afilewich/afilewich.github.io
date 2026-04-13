@@ -98,11 +98,16 @@ Values update automatically as you type. Time inputs use **minutes**, and decima
 </div>
 
 <style>
+  .vo2-tool {
+    max-width: 1200px;
+  }
+
   .vo2-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: minmax(300px, 0.95fr) minmax(460px, 1.15fr);
     gap: 1.25rem;
     margin-top: 1rem;
+    align-items: start;
   }
 
   .vo2-card {
@@ -227,10 +232,11 @@ Values update automatically as you type. Time inputs use **minutes**, and decima
   }
 
   .vo2-table th {
-    width: 36%;
+    width: 30%;
   }
 
   .vo2-table td {
+    width: 70%;
     white-space: normal;
   }
 
@@ -245,6 +251,12 @@ Values update automatically as you type. Time inputs use **minutes**, and decima
     border-radius: 8px;
     border: 1px solid rgba(231, 76, 60, 0.45);
     background: rgba(231, 76, 60, 0.12);
+  }
+
+  @media (max-width: 980px) {
+    .vo2-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
