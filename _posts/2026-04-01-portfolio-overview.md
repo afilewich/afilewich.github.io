@@ -34,6 +34,8 @@ Kinesiology laboratories often require students to learn unfamiliar procedures, 
 
 The project suggested that students who used the videos often viewed them positively, especially for preparation, procedural clarity, confidence, and skill support. At the same time, overall video uptake across the class remained low, suggesting that implementation and visibility matter as much as content quality.
 
+**Additional Research** — a co-authored publication on family time, long-term care, and COVID-19 restrictions
+
 ## Explore the Site
 
 Use the navigation menu to move through the project pages and learn more about the study, the methods, the findings, and the educational implications.
