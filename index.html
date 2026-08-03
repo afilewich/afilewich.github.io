@@ -1,84 +1,372 @@
 ---
-layout: page
-title: Home
+layout: default
 permalink: /
 ---
 
-<div style="text-align:center; padding:1rem 0 2rem;">
-  <img src="/assets/img/Avatar.jpg" alt="Portrait of Andrew Filewich" style="width:180px; height:180px; object-fit:cover; border-radius:50%; margin-bottom:1rem;">
-  <h1 style="margin-bottom:0.35rem;">Andrew Filewich</h1>
-  <p style="font-size:1.15rem; margin-bottom:1.25rem;"><strong>Kinesiology (Honours) · Research · Rehabilitation · Health Education</strong></p>
-  <p style="max-width:760px; margin:0 auto 1.5rem;">I am a kinesiology honours graduate with experience in qualitative health research, athlete testing, rehabilitation support, and frontline nursing. This portfolio brings together my resume, honours thesis, research publication, and technical work.</p>
+<style>
+  body:has(.portfolio-landing) #panel-wrapper {
+    display: none !important;
+  }
 
-  <p>
-    <a href="/resume/" class="btn btn-primary">View Resume</a>
-    <a href="/thesis/" class="btn btn-outline-primary">Explore Thesis</a>
-    <a href="/additional-research/" class="btn btn-outline-primary">Additional Research</a>
-    <a href="https://github.com/afilewich" class="btn btn-outline-primary">GitHub</a>
-  </p>
-</div>
+  body:has(.portfolio-landing) #main {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 
----
+  body:has(.portfolio-landing) #main-wrapper > .container {
+    max-width: 1380px !important;
+  }
 
-## Featured Work
+  body:has(.portfolio-landing) main {
+    max-width: none !important;
+  }
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Honours Thesis</h3>
-        <p class="card-text"><em>Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective</em></p>
-        <p class="card-text">An exploratory mixed-methods project examining student preparation, confidence, procedural clarity, skill development, and video uptake in undergraduate kinesiology laboratories.</p>
+  .portfolio-landing {
+    width: min(1180px, calc(100vw - 2rem));
+    margin: 0 auto;
+    padding: 1.25rem 0 3rem;
+    font-size: 1.02rem;
+  }
+
+  .portfolio-hero {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 2.25rem;
+    align-items: center;
+    padding: clamp(1.75rem, 4vw, 3.5rem);
+    border: 1px solid var(--main-border-color);
+    border-radius: 1.25rem;
+    background:
+      radial-gradient(circle at top right, rgba(13, 110, 253, 0.20), transparent 34%),
+      linear-gradient(135deg, var(--card-bg), var(--main-bg));
+    box-shadow: var(--card-shadow);
+  }
+
+  .portfolio-portrait {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  }
+
+  .portfolio-eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.83rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--link-color);
+  }
+
+  .portfolio-name {
+    margin: 0;
+    font-size: clamp(2.35rem, 6vw, 4.8rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+  }
+
+  .portfolio-tagline {
+    margin: 0.85rem 0;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    font-weight: 650;
+  }
+
+  .portfolio-intro {
+    max-width: 800px;
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    color: var(--text-muted-color);
+  }
+
+  .portfolio-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .portfolio-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.7rem;
+  }
+
+  .portfolio-section {
+    margin-top: 3.25rem;
+  }
+
+  .portfolio-section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .portfolio-section-heading h2 {
+    margin: 0;
+    font-size: clamp(1.65rem, 3vw, 2.2rem);
+  }
+
+  .portfolio-section-heading p {
+    margin: 0;
+    color: var(--text-muted-color);
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .portfolio-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 290px;
+    padding: 1.55rem;
+    border: 1px solid var(--main-border-color);
+    border-radius: 1rem;
+    background: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--link-color);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.14);
+  }
+
+  .portfolio-card-icon {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.85rem;
+    background: rgba(13, 110, 253, 0.13);
+    color: var(--link-color);
+    font-size: 1.35rem;
+  }
+
+  .portfolio-card h3 {
+    margin: 0 0 0.7rem;
+    font-size: 1.35rem;
+  }
+
+  .portfolio-card p {
+    line-height: 1.65;
+  }
+
+  .portfolio-card .btn {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+
+  .portfolio-skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .portfolio-skill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid var(--main-border-color);
+    border-radius: 999px;
+    background: var(--card-bg);
+    font-weight: 600;
+  }
+
+  .portfolio-timeline {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .portfolio-timeline-item {
+    padding: 1.25rem;
+    border: 1px solid var(--main-border-color);
+    border-top: 4px solid var(--link-color);
+    border-radius: 0.85rem;
+    background: var(--card-bg);
+  }
+
+  .portfolio-year {
+    display: block;
+    margin-bottom: 0.45rem;
+    color: var(--link-color);
+    font-size: 0.95rem;
+    font-weight: 800;
+  }
+
+  .portfolio-contact {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .portfolio-contact a,
+  .portfolio-contact div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    border: 1px solid var(--main-border-color);
+    border-radius: 0.85rem;
+    background: var(--card-bg);
+  }
+
+  @media (max-width: 900px) {
+    .portfolio-hero {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .portfolio-portrait {
+      margin: 0 auto;
+    }
+
+    .portfolio-actions {
+      justify-content: center;
+    }
+
+    .portfolio-grid,
+    .portfolio-timeline,
+    .portfolio-contact {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-section-heading {
+      align-items: start;
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="portfolio-landing">
+  <section class="portfolio-hero" aria-labelledby="portfolio-name">
+    <img class="portfolio-portrait" src="/assets/img/Avatar.jpg" alt="Portrait of Andrew Filewich">
+    <div>
+      <p class="portfolio-eyebrow">Professional and Academic Portfolio</p>
+      <h1 class="portfolio-name" id="portfolio-name">Andrew Filewich</h1>
+      <p class="portfolio-tagline">Kinesiology (Honours) · Research · Rehabilitation · Health Education</p>
+      <p class="portfolio-intro">I am a kinesiology honours graduate with experience in qualitative health research, athlete testing, rehabilitation support, and frontline nursing. My work connects evidence-based practice, clear communication, and practical health education.</p>
+      <div class="portfolio-actions">
+        <a href="/resume/" class="btn btn-primary"><i class="fas fa-file-lines" aria-hidden="true"></i> Resume</a>
+        <a href="/thesis/" class="btn btn-outline-primary"><i class="fas fa-flask" aria-hidden="true"></i> Honours Thesis</a>
+        <a href="/additional-research/" class="btn btn-outline-primary"><i class="fas fa-book-open" aria-hidden="true"></i> Publication</a>
+        <a href="https://github.com/afilewich" class="btn btn-outline-primary"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-section" aria-labelledby="featured-heading">
+    <div class="portfolio-section-heading">
+      <h2 id="featured-heading">Featured Work</h2>
+      <p>Research, technical analysis, and professional experience.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <article class="portfolio-card">
+        <div class="portfolio-card-icon"><i class="fas fa-flask" aria-hidden="true"></i></div>
+        <h3>Honours Thesis</h3>
+        <p><em>Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective</em></p>
+        <p>An exploratory mixed-methods project examining student preparation, confidence, procedural clarity, skill development, and video uptake in undergraduate kinesiology laboratories.</p>
         <a href="/thesis/" class="btn btn-primary">View Thesis Project</a>
-      </div>
-    </div>
-  </div>
+      </article>
 
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Research Publication</h3>
-        <p class="card-text"><em>“You Admit a Resident, You Admit a Family”: The Impact of COVID-19 Restrictions on Family Time in Long-Term Care</em></p>
-        <p class="card-text">A co-authored qualitative study focused on family involvement, communication, quality of life, and family-centred care in long-term care.</p>
+      <article class="portfolio-card">
+        <div class="portfolio-card-icon"><i class="fas fa-book-open" aria-hidden="true"></i></div>
+        <h3>Research Publication</h3>
+        <p><em>“You Admit a Resident, You Admit a Family”: The Impact of COVID-19 Restrictions on Family Time in Long-Term Care</em></p>
+        <p>A co-authored qualitative study focused on family involvement, communication, quality of life, and family-centred care in long-term care.</p>
         <a href="/additional-research/" class="btn btn-primary">View Publication</a>
-      </div>
-    </div>
-  </div>
+      </article>
 
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Data & Visuals</h3>
-        <p class="card-text">Programmatically generated charts based on thesis findings, plus an embedded VO₂ analysis notebook demonstrating a code-based sport and exercise workflow.</p>
+      <article class="portfolio-card">
+        <div class="portfolio-card-icon"><i class="fas fa-chart-column" aria-hidden="true"></i></div>
+        <h3>Data &amp; Visuals</h3>
+        <p>Programmatically generated thesis charts and an embedded VO₂ analysis notebook demonstrating a reproducible code-based sport and exercise workflow.</p>
         <a href="/data-visuals/" class="btn btn-primary">Explore Data</a>
-      </div>
-    </div>
-  </div>
+      </article>
 
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Professional Background</h3>
-        <p class="card-text">Experience spanning kinesiology, athlete assessment, rehabilitation support, qualitative research, acute care, long-term care, and interdisciplinary teamwork.</p>
+      <article class="portfolio-card">
+        <div class="portfolio-card-icon"><i class="fas fa-briefcase" aria-hidden="true"></i></div>
+        <h3>Professional Background</h3>
+        <p>Experience spanning kinesiology, athlete assessment, rehabilitation support, qualitative research, acute care, long-term care, leadership, and interdisciplinary teamwork.</p>
         <a href="/resume/" class="btn btn-primary">View Web Resume</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="portfolio-section" aria-labelledby="skills-heading">
+    <div class="portfolio-section-heading">
+      <h2 id="skills-heading">Featured Skills</h2>
+      <p>Applied across health, research, education, and technology.</p>
+    </div>
+    <div class="portfolio-skill-grid">
+      <span class="portfolio-skill"><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i> Qualitative Research</span>
+      <span class="portfolio-skill"><i class="fas fa-person-running" aria-hidden="true"></i> Athlete Testing</span>
+      <span class="portfolio-skill"><i class="fas fa-heart-pulse" aria-hidden="true"></i> Rehabilitation Support</span>
+      <span class="portfolio-skill"><i class="fas fa-chart-bar" aria-hidden="true"></i> Data Visualization</span>
+      <span class="portfolio-skill"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+      <span class="portfolio-skill"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
+      <span class="portfolio-skill"><i class="fas fa-video" aria-hidden="true"></i> Multimedia Instruction</span>
+      <span class="portfolio-skill"><i class="fas fa-users" aria-hidden="true"></i> Interdisciplinary Collaboration</span>
+    </div>
+  </section>
+
+  <section class="portfolio-section" aria-labelledby="timeline-heading">
+    <div class="portfolio-section-heading">
+      <h2 id="timeline-heading">Academic &amp; Professional Timeline</h2>
+      <p>A concise view of the work represented in this portfolio.</p>
+    </div>
+    <div class="portfolio-timeline">
+      <div class="portfolio-timeline-item">
+        <span class="portfolio-year">2018–2021</span>
+        <strong>Clinical Nursing</strong>
+        <p>Acute care and long-term care nursing experience.</p>
+      </div>
+      <div class="portfolio-timeline-item">
+        <span class="portfolio-year">2021–2023</span>
+        <strong>Health Research</strong>
+        <p>Participant recruitment, interviewing, qualitative coding, and publication support.</p>
+      </div>
+      <div class="portfolio-timeline-item">
+        <span class="portfolio-year">2025</span>
+        <strong>Kinesiology Practicum</strong>
+        <p>Athlete testing, rehabilitation support, and coaching in a performance environment.</p>
+      </div>
+      <div class="portfolio-timeline-item">
+        <span class="portfolio-year">2026</span>
+        <strong>Honours Thesis &amp; Portfolio</strong>
+        <p>Kinesiology education research, programmatic visuals, and public-facing technical communication.</p>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="portfolio-section" aria-labelledby="contact-heading">
+    <div class="portfolio-section-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Connect with me or explore the underlying work.</p>
+    </div>
+    <div class="portfolio-contact">
+      <a href="mailto:andrewfilewich@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> andrewfilewich@gmail.com</a>
+      <a href="https://github.com/afilewich"><i class="fab fa-github" aria-hidden="true"></i> github.com/afilewich</a>
+      <div><i class="fas fa-location-dot" aria-hidden="true"></i> Airdrie, Alberta</div>
+    </div>
+  </section>
 </div>
-
----
-
-## Areas of Interest
-
-- Kinesiology education and experiential learning
-- Rehabilitation and applied movement science
-- Exercise physiology and sport performance
-- Qualitative health research
-- Family-centred care and health policy
-- Multimedia instruction and technical communication
-
-## Contact
-
-- **Email:** andrewfilewich@gmail.com
-- **GitHub:** [github.com/afilewich](https://github.com/afilewich)
-- **Location:** Airdrie, Alberta
