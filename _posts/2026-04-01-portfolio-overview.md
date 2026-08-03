@@ -23,7 +23,8 @@ This site presents outlines my honours project in a web-based format through fou
 - **Methods** — how the study was designed and carried out
 - **Findings** — what the project found
 - **Implications** — what the results may mean for kinesiology education
-- **Additional Research** — a co-authored publication on family time, long-term care, and COVID-19 restrictions
+
+**Additional Research** — a co-authored publication on family time, long-term care, and COVID-19 restrictions
 
 ## Why This Project Matters
 
