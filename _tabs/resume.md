@@ -5,11 +5,11 @@ order: 3
 title: Resume
 ---
 
-[Download my current resume as a PDF](/assets/files/Andrew_Filewich_Resume_Formatted.docx.pdf){: .btn .btn-primary }
+[Download my current resume as a PDF](/assets/files/Andrew_Filewich_Resume.pdf){: .btn .btn-primary }
 
 ## Professional Summary
 
-Kinesiology Honours Graduate with prior frontline nursing experience, qualitative health research experience, and demonstrated leadership in long-term care and acute care settings. Experienced in research participant recruitment, semi-structured interviewing, qualitative coding, EMR documentation, medication management, staff coordination, athlete testing, and interdisciplinary collaboration. Seeking opportunities in research, rehabilitation, kinesiology, and health-focused professional roles.
+Kinesiology Honours graduate with Distinction, bringing frontline nursing experience, qualitative health research experience, and applied athlete testing and rehabilitation support. Experienced in participant recruitment, semi-structured interviewing, qualitative coding, EMR documentation, medication management, staff coordination, and interdisciplinary collaboration. Combines exercise science training with clinical experience and professional development in hip rehabilitation.
 
 ## Contact
 
@@ -21,105 +21,107 @@ Kinesiology Honours Graduate with prior frontline nursing experience, qualitativ
 
 ## Core Skills
 
+- Athlete testing and rehabilitation support
 - Qualitative research and coding
 - Participant recruitment and interviewing
-- Athlete testing and rehabilitation support
+- EMR documentation (Meditech)
 - Medication administration
-- EMR documentation using Meditech
 - Interdisciplinary collaboration
 - Staff supervision and training
 - Microsoft Excel and Word
-- Video editing and technical troubleshooting
-- GitHub, website setup, and maintenance
 
 ## Education
 
 ### Bachelor of Science in Kinesiology (Honours)
 **University of Calgary, Calgary, AB**  
-Graduated May 2026  
+May 2026  
 - With Distinction
 
 ### Practical Nursing Diploma
 **Okanagan College, Kelowna, BC**  
-Graduated April 2018
+Apr. 2018
 
 ## Research Experience
 
 ### Research Assistant
 **University of British Columbia**  
-Aug. 2021 – Feb. 2023
+Aug. 2021 - Feb. 2023
 
-- Recruited 55 participants for a qualitative study examining the impact of COVID-19 policies in long-term care
-- Conducted semi-structured interviews and contributed to qualitative data collection
-- Performed qualitative coding and supported thematic analysis as part of the research team
-- Assisted with manuscript writing, editing, and formatting for publication
+- Recruited 55 participants for a qualitative study examining the impact of COVID-19 policies in long-term care.
+- Conducted semi-structured interviews and supported qualitative data collection and thematic analysis.
+- Performed qualitative coding and contributed to manuscript writing, editing, and publication formatting.
 
 ## Practicum Experience
 
 ### Practicum Student
 **Village Sports / X-Factor, under Ryan van Asten**  
-June 2025 – July 2025
+Jun. 2025 - Jul. 2025 | **65-hour practicum**
 
-- Supported athlete testing, including strength and power appraisals
-- Assisted with rehabilitation support in a performance setting
-- Contributed to coaching and athlete instruction during assessment and training sessions
+- Supported athlete testing, including strength and power appraisals, in a performance setting.
+- Assisted with rehabilitation support, coaching, and athlete instruction during assessment and training sessions.
 
 ## Clinical Experience
 
 ### Licensed Practical Nurse
 **Cottonwoods Care Centre**  
-Feb. 2019 – Aug. 2021
+Feb. 2019 - Aug. 2021
 
-- Helped coordinate care for approximately 50 residents alongside one other LPN and eight care aides
-- Supervised care aide staff, trained new hires, managed medications, and documented in Meditech
-- Coordinated care with physicians and allied health professionals while communicating resident status changes
+- Coordinated care for approximately 50 residents alongside 1 other LPN and 8 care aides.
+- Supervised care aide staff, trained new hires, managed medications, and documented care in Meditech.
+- Collaborated with physicians and allied health professionals while communicating resident status changes.
 
 ### Licensed Practical Nurse
 **Kelowna General Hospital**  
-Jun. 2018 – Feb. 2019
+Jun. 2018 - Feb. 2019
 
-- Provided postoperative care for thoracic, plastic surgery, burn/graft, and renal surgery patients
-- Shared responsibility for 32 postoperative patients across an eight-nurse team
-- Completed assessments, documentation, and care coordination within an interdisciplinary hospital setting
-- Delivered person-centred care while adapting to diverse medical and cultural needs
+- Provided postoperative care for thoracic, plastic surgery, burn/graft, and renal surgery patients.
+- Shared responsibility for 32 postoperative patients across an 8-nurse team.
+- Completed assessments, documentation, and care coordination while delivering person-centred care in an interdisciplinary hospital setting.
 
 ## Projects and Publication
 
-### Honours Thesis
-**University of Calgary**
+### Honours Thesis, University of Calgary
 
-_Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective_
+*Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective*
 
-### Research Article
+### Research Article, University of British Columbia
 
 Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, C. (2023). *Family involvement in British Columbia LTC facilities during a pandemic: The impact of COVID-19 restrictions*. *Innovation in Aging, 7*(Supplement 1), 881. https://doi.org/10.1093/geroni/igad104.2836
 
-## Professional Development, Technical Skills and Certification
+## Professional Development and Certifications
 
-### Professional Development
--  Preserving the Active Hip: New Advances in Hip Rehabilitation - 14-hour post-graduate physiotherapy course, 
-Lethbridge, AB (Sept. 2025).
+- **Preserving the Active Hip: New Advances in Hip Rehabilitation** - Sept. 2025  
+  14-hour research-based course in the assessment and rehabilitation management of hip disorders; Lethbridge, AB.
+- **First Aid and CPR/AED Level C** - Current
+- **PVPC - Provincial Violence Prevention** - 2021
+- **P.I.E.C.E.S. training - Kelowna General Hospital** - 2020
+- **GPA - Gentle Persuasive Approach - Kelowna General Hospital** - 2020
+- **SPECO - WHMIS, Violence Prevention & Infection Control** - 2018
 
-### Technical Skills
+## Professional Affiliations
 
-- Microsoft Excel and Microsoft Word
+- British Columbia College of Nurses and Midwives (BCCNM) - LPN Registrant - 2018 - Present
+- British Columbia Nurses Union (BCNU) - Member - 2018 - Present
+
+## Technical Skills
+
+- Microsoft Excel
+- Microsoft Word
+- Meditech EMR
 - Qualitative coding
 - Video editing
-- Technical troubleshooting
-- PC building
 - GitHub
 - Website setup and maintenance
+- Technical troubleshooting
 
-### Certification
+## Community Experience
 
-- Current First Aid and CPR Level C with AED
+- **Assistant Basketball Coach**, George Elliot Secondary School - Nov. 2021 - Mar. 2022
+- **Assistant Basketball Coach**, Rutland Secondary School - Nov. 2013 - Mar. 2014
+- **Red Shirt Volunteer**, YMCA - Kelowna - Spring 2014
 
-## Volunteer and Additional Experience
+## Additional Employment
 
-- Assistant Basketball Coach, George Elliot Secondary School — Nov. 2021 to Mar. 2022
-- Assistant Basketball Coach, Rutland Secondary School — Nov. 2013 to Mar. 2014
-- Red Shirt Volunteer, YMCA – Kelowna — Spring 2014
-- Delivery Driver, SkipTheDishes — Sept. 2023 to Dec. 2023; Feb. 2019 to Jun. 2022
-- Delivery Driver and Prep Cook, Papa John’s Pizza — May 2014 to Jun. 2018
-- Event Supervisor and Meter Technician, Imperial Parking Canada — May 2011 to Sept. 2014
-- Dishwasher, Server, and Cook, Skyway Cafe — Mar. 2007 to Aug. 2007
+- **Delivery Driver**, SkipTheDishes - Sept. 2023 - Dec. 2023; Feb. 2019 - Jun. 2022
+- **Delivery Driver / Prep Cook**, Papa John's Pizza - May 2014 - Jun. 2018
+- **Event Supervisor / Meter Technician**, Imperial Parking Canada - May 2011 - Sept. 2014
