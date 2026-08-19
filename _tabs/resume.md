@@ -94,7 +94,11 @@ _Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Per
 
 Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, C. (2023). *Family involvement in British Columbia LTC facilities during a pandemic: The impact of COVID-19 restrictions*. *Innovation in Aging, 7*(Supplement 1), 881. https://doi.org/10.1093/geroni/igad104.2836
 
-## Technical Skills and Certification
+## Professional Development, Technical Skills and Certification
+
+### Professional Development
+-  Preserving the Active Hip: New Advances in Hip Rehabilitation - 14-hour post-graduate physiotherapy course, 
+Lethbridge, AB (Sept. 2025).
 
 ### Technical Skills
 
