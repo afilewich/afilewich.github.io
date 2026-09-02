@@ -5,7 +5,7 @@ order: 3
 title: Resume
 ---
 
-[Download my current resume as a PDF](/assets/files/Andrew_Filewich_Resume.pdf){: .btn .btn-primary }
+[Open my current resume](https://docs.google.com/document/d/1l9PGoR8kC8F7-KEjqp7aVT-0YU4FovOq/edit){: .btn .btn-primary }
 
 ## Professional Summary
 
