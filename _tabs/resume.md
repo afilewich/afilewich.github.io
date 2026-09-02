@@ -7,6 +7,8 @@ title: Resume
 
 [Open my current resume](https://docs.google.com/document/d/1l9PGoR8kC8F7-KEjqp7aVT-0YU4FovOq/edit){: .btn .btn-primary }
 
+*Resume current as of September 1, 2026.*
+
 ## Professional Summary
 
 Kinesiology Honours graduate with Distinction, bringing frontline nursing experience, qualitative health research experience, and applied athlete testing and rehabilitation support. Experienced in participant recruitment, semi-structured interviewing, qualitative coding, EMR documentation, medication management, staff coordination, and interdisciplinary collaboration. Combines exercise science training with clinical experience and professional development in rehabilitation.
