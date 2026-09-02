@@ -9,7 +9,7 @@ title: Resume
 
 ## Professional Summary
 
-Kinesiology Honours graduate with Distinction, bringing frontline nursing experience, qualitative health research experience, and applied athlete testing and rehabilitation support. Experienced in participant recruitment, semi-structured interviewing, qualitative coding, EMR documentation, medication management, staff coordination, and interdisciplinary collaboration. Combines exercise science training with clinical experience and professional development in hip rehabilitation.
+Kinesiology Honours graduate with Distinction, bringing frontline nursing experience, qualitative health research experience, and applied athlete testing and rehabilitation support. Experienced in participant recruitment, semi-structured interviewing, qualitative coding, EMR documentation, medication management, staff coordination, and interdisciplinary collaboration. Combines exercise science training with clinical experience and professional development in rehabilitation.
 
 ## Contact
 
@@ -21,7 +21,8 @@ Kinesiology Honours graduate with Distinction, bringing frontline nursing experi
 
 ## Core Skills
 
-- Athlete testing and rehabilitation support
+- Athletic testing and rehabilitation support
+- Comprehensive care planning
 - Qualitative research and coding
 - Participant recruitment and interviewing
 - EMR documentation (Meditech)
@@ -74,7 +75,7 @@ Feb. 2019 - Aug. 2021
 **Kelowna General Hospital**  
 Jun. 2018 - Feb. 2019
 
-- Provided postoperative care for thoracic, plastic surgery, burn/graft, and renal surgery patients.
+- Provided postoperative care for thoracic, plastics, and renal surgery, burn/graft, general medical.
 - Shared responsibility for 32 postoperative patients across an 8-nurse team.
 - Completed assessments, documentation, and care coordination while delivering person-centred care in an interdisciplinary hospital setting.
 
@@ -100,8 +101,8 @@ Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, 
 
 ## Professional Affiliations
 
-- British Columbia College of Nurses and Midwives (BCCNM) - LPN Registrant - 2018 - Present
-- British Columbia Nurses Union (BCNU) - Member - 2018 - Present
+- British Columbia College of Nurses and Midwives (BCCNM) - LPN Registrant - 2018 - 2024
+- British Columbia Nurses Union (BCNU) - Member - 2018 - 2024
 
 ## Technical Skills
 
