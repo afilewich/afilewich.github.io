@@ -5,9 +5,9 @@ order: 3
 title: Resume
 ---
 
-[Open my current resume](https://docs.google.com/document/d/1l9PGoR8kC8F7-KEjqp7aVT-0YU4FovOq/edit){: .btn .btn-primary }
+[Download my current resume](/assets/files/Andrew_Filewich_Resume.pdf){: .btn .btn-primary target="_blank" }
 
-*Resume current as of September 1, 2026.*
+*Resume current as of September 22, 2026.*
 
 ## Professional Summary
 
@@ -84,18 +84,20 @@ Jun. 2018 - Feb. 2019
 ## Projects and Publication
 
 ### Honours Thesis, University of Calgary
+Apr. 2026
 
 *Pre-Laboratory Instructional Videos in Experiential Learning: A Kinesiology Perspective*
 
 ### Research Article, University of British Columbia
+Jan. 2021 - Aug. 2023
 
 Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, C. (2023). *Family involvement in British Columbia LTC facilities during a pandemic: The impact of COVID-19 restrictions*. *Innovation in Aging, 7*(Supplement 1), 881. https://doi.org/10.1093/geroni/igad104.2836
 
 ## Professional Development and Certifications
 
 - **Preserving the Active Hip: New Advances in Hip Rehabilitation** - Sept. 2025  
-  14-hour research-based course in the assessment and rehabilitation management of hip disorders; Lethbridge, AB.
-- **First Aid and CPR/AED Level C** - Current
+  14-hour research-based course in the assessment and rehabilitation management of hip disorders under David Lindsay; Lethbridge, AB.
+- **First Aid and CPR/AED Level C - Valid through 2028** - Apr. 2025
 - **PVPC - Provincial Violence Prevention** - 2021
 - **P.I.E.C.E.S. training - Kelowna General Hospital** - 2020
 - **GPA - Gentle Persuasive Approach - Kelowna General Hospital** - 2020
@@ -103,6 +105,7 @@ Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, 
 
 ## Professional Affiliations
 
+- **Alberta Kinesiology Association (AKA) - Professional Kinesiologist (Prolink member)** - 2026 - Present
 - British Columbia College of Nurses and Midwives (BCCNM) - LPN Registrant - 2018 - 2024
 - British Columbia Nurses Union (BCNU) - Member - 2018 - 2024
 
@@ -116,6 +119,7 @@ Christianson, T., Appiah-Kusi, E., Bremner, J., Filewich, A., Qazi, A., & Reid, 
 - GitHub
 - Website setup and maintenance
 - Technical troubleshooting
+- Google Cloud Services
 
 ## Community Experience
 
