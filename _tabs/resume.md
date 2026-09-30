@@ -5,7 +5,7 @@ order: 3
 title: Resume
 ---
 
-[Download my current resume](/assets/files/Andrew_Filewich_Resume.pdf){: .btn .btn-primary target="_blank" }
+[Download my current resume](/assets/files/Andrew_Filewich_Resume_Formatted.docx.pdf){: .btn .btn-primary target="_blank" }
 
 *Resume current as of September 22, 2026.*
 
